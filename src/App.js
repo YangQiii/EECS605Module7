@@ -100,6 +100,7 @@ function App() {
     <div className="App">
       <div className="Input">
         <h1>Input</h1>
+        <h2>Please submit a .csv file with following information(model,year,price,transmission,mileage,fueltype,engine size)</h2>
         <form onSubmit={handleSubmit}>
           <input type="file" accept=".csv" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
