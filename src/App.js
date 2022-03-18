@@ -99,15 +99,17 @@ function App() {
   return (
     <div className="App">
       <div className="Input">
-        <h1>Input</h1>
-        <h2>Please submit a .csv file with following information(model,year,price,transmission,mileage,fueltype,engine size)</h2>
+        <h1>Ford-Focus Price Prediction</h1>
+        <h2>Name:Qi Yang, email:qya@umich.edu</h2>
+        <h3>Input</h3>
+        <h4>Please submit a .csv file with following information(model,year,price,transmission,mileage,fueltype,engine size)</h4>
         <form onSubmit={handleSubmit}>
           <input type="file" accept=".csv" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
         </form>
       </div>
       <div className="Output">
-        <h1>Results</h1>
+        <h3>Results</h3>
         <p>{outputFileData}</p>
       </div>
     </div>
