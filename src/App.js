@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+<title>Awesome interesting stuff</title>
 
 // atob is deprecated but this function converts base64string to text string
 const decodeFileBase64 = (base64String) => {
